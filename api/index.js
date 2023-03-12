@@ -13,5 +13,5 @@ app.get('/', (req, res, next) => {
 });
 
 app.listen(ROOT, () => {
-  console.log(`Server is running on ${ROOT}`);
+  console.log(`Server is running on ${ROOT} on development branch`);
 });
